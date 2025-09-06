@@ -26,3 +26,57 @@ Data yang diperoleh merupakan berita-berita terbaru yang dipublikasikan di BBC I
 
 ---
 
+
+---
+
+## ⚙️ Tahapan Instalasi & Setup
+
+1. **Clone Repository**
+   Unduh proyek ini dengan cara:
+
+   ```bash
+   git clone https://github.com/Mufawaz29/Project1WebScraperPythonPemula.git
+   ```
+
+2. **Masuk ke Folder Proyek**
+
+   ```bash
+   cd Project1WebScraperPythonPemula
+   ```
+
+3. **Buat Virtual Environment (Opsional tapi Disarankan)**
+
+   ```bash
+   python -m venv venv
+   ```
+
+   Aktifkan virtual environment:
+
+   * **Windows**
+
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   * **Linux/Mac**
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Install Semua Library yang Dibutuhkan**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Jalankan Pipeline Proyek Secara Berurutan**
+
+   * Pertama: `scrape_bbc.py` → untuk scraping data berita.
+   * Kedua: `clean_bbc.py` → untuk membersihkan teks.
+   * Ketiga: `eda_bbc.py` → untuk melakukan exploratory data analysis.
+   * Keempat: `add_category_bbc.py` → untuk menambahkan kategori (saat ini fokus politik).
+   * Kelima: `modelling_bbc.py` → untuk membangun model klasifikasi sederhana.
+   * Terakhir: `evaluation_bbc.py` → untuk mengevaluasi performa model.
+
+---
+
