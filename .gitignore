@@ -1,0 +1,16 @@
+# .gitignore for Python projects
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.DS_Store
+.env
+.env.*
+.ipynb_checkpoints/
+data/*.csv
+!data/bbc_news_with_category.csv
+!data/bbc_news_clean_with_length.csv
+!data/bbc_news.csv
